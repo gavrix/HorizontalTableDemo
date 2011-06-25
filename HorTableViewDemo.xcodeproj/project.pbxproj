@@ -14,8 +14,10 @@
 		7461B99213B696AF00DA541F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7461B99113B696AF00DA541F /* main.m */; };
 		7461B99513B696AF00DA541F /* HorTableViewDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7461B99413B696AF00DA541F /* HorTableViewDemoAppDelegate.m */; };
 		7461B99813B696AF00DA541F /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7461B99613B696AF00DA541F /* MainWindow.xib */; };
-		7461B99B13B696AF00DA541F /* HorTableViewDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7461B99A13B696AF00DA541F /* HorTableViewDemoViewController.m */; };
-		7461B99E13B696B000DA541F /* HorTableViewDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7461B99C13B696B000DA541F /* HorTableViewDemoViewController.xib */; };
+		7461B9C413B6977C00DA541F /* PFHorizontalTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7461B9C113B6977C00DA541F /* PFHorizontalTableView.m */; };
+		7461B9C513B6977C00DA541F /* PFHorTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7461B9C313B6977C00DA541F /* PFHorTableViewCell.m */; };
+		7461B9CA13B6A55B00DA541F /* MyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7461B9C813B6A55A00DA541F /* MyTableViewController.m */; };
+		7461B9CB13B6A55B00DA541F /* MyTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7461B9C913B6A55A00DA541F /* MyTableViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +25,20 @@
 		7461B98413B696AF00DA541F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7461B98613B696AF00DA541F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7461B98813B696AF00DA541F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		7461B98C13B696AF00DA541F /* HorTableViewDemo-Info.plist */ = {isa = PBXFileReference; path = "HorTableViewDemo-Info.plist"; sourceTree = "<group>"; };
+		7461B98C13B696AF00DA541F /* HorTableViewDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HorTableViewDemo-Info.plist"; sourceTree = "<group>"; };
 		7461B98E13B696AF00DA541F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		7461B99013B696AF00DA541F /* HorTableViewDemo-Prefix.pch */ = {isa = PBXFileReference; path = "HorTableViewDemo-Prefix.pch"; sourceTree = "<group>"; };
+		7461B99013B696AF00DA541F /* HorTableViewDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HorTableViewDemo-Prefix.pch"; sourceTree = "<group>"; };
 		7461B99113B696AF00DA541F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7461B99313B696AF00DA541F /* HorTableViewDemoAppDelegate.h */ = {isa = PBXFileReference; path = HorTableViewDemoAppDelegate.h; sourceTree = "<group>"; };
+		7461B99313B696AF00DA541F /* HorTableViewDemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HorTableViewDemoAppDelegate.h; sourceTree = "<group>"; };
 		7461B99413B696AF00DA541F /* HorTableViewDemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HorTableViewDemoAppDelegate.m; sourceTree = "<group>"; };
 		7461B99713B696AF00DA541F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		7461B99913B696AF00DA541F /* HorTableViewDemoViewController.h */ = {isa = PBXFileReference; path = HorTableViewDemoViewController.h; sourceTree = "<group>"; };
-		7461B99A13B696AF00DA541F /* HorTableViewDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HorTableViewDemoViewController.m; sourceTree = "<group>"; };
-		7461B99D13B696B000DA541F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HorTableViewDemoViewController.xib; sourceTree = "<group>"; };
+		7461B9C013B6977C00DA541F /* PFHorizontalTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFHorizontalTableView.h; sourceTree = "<group>"; };
+		7461B9C113B6977C00DA541F /* PFHorizontalTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFHorizontalTableView.m; sourceTree = "<group>"; };
+		7461B9C213B6977C00DA541F /* PFHorTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFHorTableViewCell.h; sourceTree = "<group>"; };
+		7461B9C313B6977C00DA541F /* PFHorTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFHorTableViewCell.m; sourceTree = "<group>"; };
+		7461B9C713B6A55A00DA541F /* MyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewController.h; sourceTree = "<group>"; };
+		7461B9C813B6A55A00DA541F /* MyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewController.m; sourceTree = "<group>"; };
+		7461B9C913B6A55A00DA541F /* MyTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyTableViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,13 +85,14 @@
 		7461B98A13B696AF00DA541F /* HorTableViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				7461B9C613B6978300DA541F /* HorizontalTableView */,
 				7461B99313B696AF00DA541F /* HorTableViewDemoAppDelegate.h */,
 				7461B99413B696AF00DA541F /* HorTableViewDemoAppDelegate.m */,
 				7461B99613B696AF00DA541F /* MainWindow.xib */,
-				7461B99913B696AF00DA541F /* HorTableViewDemoViewController.h */,
-				7461B99A13B696AF00DA541F /* HorTableViewDemoViewController.m */,
-				7461B99C13B696B000DA541F /* HorTableViewDemoViewController.xib */,
 				7461B98B13B696AF00DA541F /* Supporting Files */,
+				7461B9C713B6A55A00DA541F /* MyTableViewController.h */,
+				7461B9C813B6A55A00DA541F /* MyTableViewController.m */,
+				7461B9C913B6A55A00DA541F /* MyTableViewController.xib */,
 			);
 			path = HorTableViewDemo;
 			sourceTree = "<group>";
@@ -99,6 +106,17 @@
 				7461B99113B696AF00DA541F /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7461B9C613B6978300DA541F /* HorizontalTableView */ = {
+			isa = PBXGroup;
+			children = (
+				7461B9C013B6977C00DA541F /* PFHorizontalTableView.h */,
+				7461B9C113B6977C00DA541F /* PFHorizontalTableView.m */,
+				7461B9C213B6977C00DA541F /* PFHorTableViewCell.h */,
+				7461B9C313B6977C00DA541F /* PFHorTableViewCell.m */,
+			);
+			name = HorizontalTableView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,7 +168,7 @@
 			files = (
 				7461B98F13B696AF00DA541F /* InfoPlist.strings in Resources */,
 				7461B99813B696AF00DA541F /* MainWindow.xib in Resources */,
-				7461B99E13B696B000DA541F /* HorTableViewDemoViewController.xib in Resources */,
+				7461B9CB13B6A55B00DA541F /* MyTableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,7 +181,9 @@
 			files = (
 				7461B99213B696AF00DA541F /* main.m in Sources */,
 				7461B99513B696AF00DA541F /* HorTableViewDemoAppDelegate.m in Sources */,
-				7461B99B13B696AF00DA541F /* HorTableViewDemoViewController.m in Sources */,
+				7461B9C413B6977C00DA541F /* PFHorizontalTableView.m in Sources */,
+				7461B9C513B6977C00DA541F /* PFHorTableViewCell.m in Sources */,
+				7461B9CA13B6A55B00DA541F /* MyTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,14 +204,6 @@
 				7461B99713B696AF00DA541F /* en */,
 			);
 			name = MainWindow.xib;
-			sourceTree = "<group>";
-		};
-		7461B99C13B696B000DA541F /* HorTableViewDemoViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7461B99D13B696B000DA541F /* en */,
-			);
-			name = HorTableViewDemoViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -276,6 +288,7 @@
 				7461B9A313B696B000DA541F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
