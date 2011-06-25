@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7461B98513B696AF00DA541F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7461B98413B696AF00DA541F /* UIKit.framework */; };
+		7461B98713B696AF00DA541F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7461B98613B696AF00DA541F /* Foundation.framework */; };
+		7461B98913B696AF00DA541F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7461B98813B696AF00DA541F /* CoreGraphics.framework */; };
+		7461B98F13B696AF00DA541F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7461B98D13B696AF00DA541F /* InfoPlist.strings */; };
+		7461B99213B696AF00DA541F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7461B99113B696AF00DA541F /* main.m */; };
+		7461B99513B696AF00DA541F /* HorTableViewDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7461B99413B696AF00DA541F /* HorTableViewDemoAppDelegate.m */; };
+		7461B99813B696AF00DA541F /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7461B99613B696AF00DA541F /* MainWindow.xib */; };
+		7461B99B13B696AF00DA541F /* HorTableViewDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7461B99A13B696AF00DA541F /* HorTableViewDemoViewController.m */; };
+		7461B99E13B696B000DA541F /* HorTableViewDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7461B99C13B696B000DA541F /* HorTableViewDemoViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7461B98013B696AF00DA541F /* HorTableViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HorTableViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7461B98413B696AF00DA541F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7461B98613B696AF00DA541F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7461B98813B696AF00DA541F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7461B98C13B696AF00DA541F /* HorTableViewDemo-Info.plist */ = {isa = PBXFileReference; path = "HorTableViewDemo-Info.plist"; sourceTree = "<group>"; };
+		7461B98E13B696AF00DA541F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7461B99013B696AF00DA541F /* HorTableViewDemo-Prefix.pch */ = {isa = PBXFileReference; path = "HorTableViewDemo-Prefix.pch"; sourceTree = "<group>"; };
+		7461B99113B696AF00DA541F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7461B99313B696AF00DA541F /* HorTableViewDemoAppDelegate.h */ = {isa = PBXFileReference; path = HorTableViewDemoAppDelegate.h; sourceTree = "<group>"; };
+		7461B99413B696AF00DA541F /* HorTableViewDemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HorTableViewDemoAppDelegate.m; sourceTree = "<group>"; };
+		7461B99713B696AF00DA541F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		7461B99913B696AF00DA541F /* HorTableViewDemoViewController.h */ = {isa = PBXFileReference; path = HorTableViewDemoViewController.h; sourceTree = "<group>"; };
+		7461B99A13B696AF00DA541F /* HorTableViewDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HorTableViewDemoViewController.m; sourceTree = "<group>"; };
+		7461B99D13B696B000DA541F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HorTableViewDemoViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7461B97D13B696AF00DA541F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7461B98513B696AF00DA541F /* UIKit.framework in Frameworks */,
+				7461B98713B696AF00DA541F /* Foundation.framework in Frameworks */,
+				7461B98913B696AF00DA541F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7461B97513B696AF00DA541F = {
+			isa = PBXGroup;
+			children = (
+				7461B98A13B696AF00DA541F /* HorTableViewDemo */,
+				7461B98313B696AF00DA541F /* Frameworks */,
+				7461B98113B696AF00DA541F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7461B98113B696AF00DA541F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7461B98013B696AF00DA541F /* HorTableViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7461B98313B696AF00DA541F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7461B98413B696AF00DA541F /* UIKit.framework */,
+				7461B98613B696AF00DA541F /* Foundation.framework */,
+				7461B98813B696AF00DA541F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7461B98A13B696AF00DA541F /* HorTableViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7461B99313B696AF00DA541F /* HorTableViewDemoAppDelegate.h */,
+				7461B99413B696AF00DA541F /* HorTableViewDemoAppDelegate.m */,
+				7461B99613B696AF00DA541F /* MainWindow.xib */,
+				7461B99913B696AF00DA541F /* HorTableViewDemoViewController.h */,
+				7461B99A13B696AF00DA541F /* HorTableViewDemoViewController.m */,
+				7461B99C13B696B000DA541F /* HorTableViewDemoViewController.xib */,
+				7461B98B13B696AF00DA541F /* Supporting Files */,
+			);
+			path = HorTableViewDemo;
+			sourceTree = "<group>";
+		};
+		7461B98B13B696AF00DA541F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7461B98C13B696AF00DA541F /* HorTableViewDemo-Info.plist */,
+				7461B98D13B696AF00DA541F /* InfoPlist.strings */,
+				7461B99013B696AF00DA541F /* HorTableViewDemo-Prefix.pch */,
+				7461B99113B696AF00DA541F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7461B97F13B696AF00DA541F /* HorTableViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7461B9A113B696B000DA541F /* Build configuration list for PBXNativeTarget "HorTableViewDemo" */;
+			buildPhases = (
+				7461B97C13B696AF00DA541F /* Sources */,
+				7461B97D13B696AF00DA541F /* Frameworks */,
+				7461B97E13B696AF00DA541F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HorTableViewDemo;
+			productName = HorTableViewDemo;
+			productReference = 7461B98013B696AF00DA541F /* HorTableViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7461B97713B696AF00DA541F /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 7461B97A13B696AF00DA541F /* Build configuration list for PBXProject "HorTableViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7461B97513B696AF00DA541F;
+			productRefGroup = 7461B98113B696AF00DA541F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7461B97F13B696AF00DA541F /* HorTableViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7461B97E13B696AF00DA541F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7461B98F13B696AF00DA541F /* InfoPlist.strings in Resources */,
+				7461B99813B696AF00DA541F /* MainWindow.xib in Resources */,
+				7461B99E13B696B000DA541F /* HorTableViewDemoViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7461B97C13B696AF00DA541F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7461B99213B696AF00DA541F /* main.m in Sources */,
+				7461B99513B696AF00DA541F /* HorTableViewDemoAppDelegate.m in Sources */,
+				7461B99B13B696AF00DA541F /* HorTableViewDemoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7461B98D13B696AF00DA541F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7461B98E13B696AF00DA541F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7461B99613B696AF00DA541F /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7461B99713B696AF00DA541F /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		7461B99C13B696B000DA541F /* HorTableViewDemoViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7461B99D13B696B000DA541F /* en */,
+			);
+			name = HorTableViewDemoViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7461B99F13B696B000DA541F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7461B9A013B696B000DA541F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		7461B9A213B696B000DA541F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HorTableViewDemo/HorTableViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "HorTableViewDemo/HorTableViewDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7461B9A313B696B000DA541F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HorTableViewDemo/HorTableViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "HorTableViewDemo/HorTableViewDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7461B97A13B696AF00DA541F /* Build configuration list for PBXProject "HorTableViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7461B99F13B696B000DA541F /* Debug */,
+				7461B9A013B696B000DA541F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7461B9A113B696B000DA541F /* Build configuration list for PBXNativeTarget "HorTableViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7461B9A213B696B000DA541F /* Debug */,
+				7461B9A313B696B000DA541F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7461B97713B696AF00DA541F /* Project object */;
+}
